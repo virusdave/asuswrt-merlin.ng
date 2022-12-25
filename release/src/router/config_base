@@ -2,6 +2,15 @@
 # The baseline configuration for Tomato USB.
 # All other build configurations are derived from this.
 #
+# Dave's custom
+RTCONFIG_MD=y
+RTCONFIG_BLK_DEV_MD=m
+RTCONFIG_BLK_DEV_DM=m
+RTCONFIG_DM_CRYPT=m
+RTCONFIG_CRYPTO_XTS=m
+RTCONFIG_CRYPTO_SHA256=m
+#####
+
 # RTCONFIG_FW_JUMP is not set
 RTCONFIG_OPTIMIZE_SHARED_LIBS=y
 # RTCONFIG_MUSL_LIBC is not set
